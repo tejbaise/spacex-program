@@ -1,26 +1,26 @@
-.FilterDisplay {
-  width: 100%;
-  @media (min-width: 700px) {
-    float: left;
-    width: 30%;
-    padding-top: 18px;
-  }
-
-  @media (min-width: 1024px) {
-    float: left;
-    width: 20%;
+.FilterButton  {
+  &.FilterButton-primary {
+      margin: 4px;
+      color: black;
+      border-color: #bddb8f;
+      border-radius: 0.25rem;
+      min-width: 60px;
   }
 }
 
-.ListDisplay {
-  width: 100%;
-  @media (min-width: 700px) {
-    float: right;
-    width: 70%;
-  }
+h6 {
+  text-align: center;
+  margin-top: 20px !important; 
+  margin-bottom: 5px !important; 
+}
 
-  @media (min-width: 1024px) {
-    float: right;
-    width: 80%;
-  }
+hr {
+  margin-top: 0px !important; 
+  margin-bottom: 0px !important;
+}
+
+.CenterAlign {
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 40px;
 }
