@@ -24,15 +24,28 @@ function ProgramDetails() {
     loading: true,
     flights: null,
   });
+  const [urlParams, setUrlParams] = useState('');
 
   useEffect(() => {
-    fetchFlightData().then((flights) => {
+    fetchFlightData(urlParams).then((flights) => {
       setAppState({ loading: false, flights: flights });
     });
-  }, []);
+  }, [urlParams]);
 
   const onFilterChange = useCallback((response) => {
-    //Add Filter Change Logic Here
+    let attr = '';
+    if (!!response) {
+      if (response.yearFilter) {
+        attr += `&launch_year=${response.year[0]}`;
+      }
+      if (response.successfulLaunchFilter) {
+        attr += `&launch_success=${response.successfulLaunch}`;
+      }
+      if (response.successfulLandingFilter) {
+        attr += `&land_success=${response.successfulLanding}`;
+      }
+    }
+    setUrlParams(attr);
   }, []);
 
   return (
