@@ -1,7 +1,9 @@
 import React from 'react';
 import Container from 'react-bootstrap/Container';
 
-const List = () => {
+const List = (props) => {
+  const { flights } = props;
+  console.log('flights', flights)
   return <Container style={{ padding: '4px' }}></Container>;
 };
 
