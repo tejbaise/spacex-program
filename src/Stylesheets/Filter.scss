@@ -1,0 +1,26 @@
+.FilterDisplay {
+  width: 100%;
+  @media (min-width: 700px) {
+    float: left;
+    width: 30%;
+    padding-top: 18px;
+  }
+
+  @media (min-width: 1024px) {
+    float: left;
+    width: 20%;
+  }
+}
+
+.ListDisplay {
+  width: 100%;
+  @media (min-width: 700px) {
+    float: right;
+    width: 70%;
+  }
+
+  @media (min-width: 1024px) {
+    float: right;
+    width: 80%;
+  }
+}
