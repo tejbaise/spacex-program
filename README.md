@@ -14,3 +14,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Snapshots
 ![Ultra_Wide_Screen](https://github.com/tejbaise/spacex-program/blob/master/snapshots/01_Ultra_Wide_Screen.png)
+![Wide_Screen](https://github.com/tejbaise/spacex-program/blob/master/snapshots/02_Wide_Screen.png)
+![Screen](https://github.com/tejbaise/spacex-program/blob/master/snapshots/03_Screen.png)
+![iPad](https://github.com/tejbaise/spacex-program/blob/master/snapshots/04_iPad.png)
+![iPhone](https://github.com/tejbaise/spacex-program/blob/master/snapshots/05_iPhone.png)
+![Android](https://github.com/tejbaise/spacex-program/blob/master/snapshots/06_Android.png)
