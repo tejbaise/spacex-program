@@ -13,4 +13,4 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 
 ## Snapshots
-![Ultra_Wide_Screen] (https://github.com/tejbaise/spacex-program/blob/master/snapshots/01_Ultra_Wide_Screen.png)
+![Ultra_Wide_Screen](https://github.com/tejbaise/spacex-program/blob/master/snapshots/01_Ultra_Wide_Screen.png)
