@@ -1,0 +1,55 @@
+.FilterDisplay {
+  display: flex;
+  justify-content: center;
+}
+
+.ListDisplay {
+  width: 100%;
+}
+
+.Header {
+  width: 100%;
+  position: fixed;
+  background-color: #f0f0f0;
+  z-index: 10;
+}
+
+.Content {
+  padding-top: 100px;
+}
+
+@media (min-width: 700px) {
+  .ListDisplay {
+    float: right;
+    width: 70%;
+  }
+
+  .FilterDisplay {
+    width: 220px;
+    position: fixed;
+  }
+}
+
+@media (min-width: 1024px) {
+  .Header {
+  }
+  .ListDisplay {
+    float: right;
+    width: 80%;
+  }
+  .FilterDisplay {
+    width: 220px;
+    position: fixed;
+  }
+}
+
+.Footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  padding-top: 10px;
+  padding-left: 10px;
+  background-color: #f0f0f0;
+  text-align: center;
+}

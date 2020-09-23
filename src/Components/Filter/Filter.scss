@@ -1,0 +1,48 @@
+.FilterButton {
+  &.FilterButton-primary {
+    margin: 4px;
+    color: black;
+    border-color: #bddb8f;
+    border-radius: 0.25rem;
+    min-width: 60px;
+  }
+}
+
+.SectionHead {
+  display: flex;
+  justify-content: center;
+}
+
+hr.Divider {
+  margin-top: 2px;
+  margin-bottom: 5px;
+}
+
+.CenterAlign {
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 40px;
+}
+
+.FilterSection {
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+
+.FilterWrapper {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 20px;
+  @media (min-width: 700px) {
+    padding-right: 20px;
+  }
+
+  @media (min-width: 1024px) {
+    padding-right: 20px;
+  }
+}
+
+.ButtonColumn {
+  display: flex;
+  justify-content: center;
+}

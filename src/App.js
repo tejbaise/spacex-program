@@ -1,11 +1,18 @@
 import React from 'react';
-import ProgramDetails from './Components/ProgramDetails';
+import ProgramDetails from './Components/ProgramDetails/ProgramDetails';
+import { BrowserRouter, Switch, Route } from 'react-router-dom';
 
 function App() {
   return (
-    <div className='App'>
-      <ProgramDetails />
-    </div>
+    <BrowserRouter>
+      <Switch>
+        <Route path='*'>
+          <div className='App'>
+            <ProgramDetails />
+          </div>
+        </Route>
+      </Switch>
+    </BrowserRouter>
   );
 }
 
