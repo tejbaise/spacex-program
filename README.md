@@ -7,6 +7,6 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 3. Styled using: [React Bootstrap] (https://react-bootstrap.github.io/)
 4. Lighthouse Report: (/Report.pdf)
 
-## Run Project
+## Run Project 
 1. Install Node Modules: `npm i`
 2. Run Dev Server: `npm start`
